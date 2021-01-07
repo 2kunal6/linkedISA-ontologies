@@ -970,6 +970,12 @@ The ISA dataset has to comply with the ISA specification available at the ISA to
                 <owl:onProperty rdf:resource="&isaterms;has_ISA_file"/>
                 <owl:someValuesFrom rdf:resource="&isaterms;investigation_file"/>
             </owl:Restriction>
+    	</rdfs:subClassOf>
+	<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&isaterms;identified_by"/>
+                <owl:someValuesFrom rdf:resource="&isaterms;identifier"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
